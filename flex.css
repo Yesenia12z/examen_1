@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    margin: 10px;
+    background-color: rgb(9, 18, 146);
+    height: 70px;
+}
+.slider{
+    margin: 10px;
+    display: flex;
+    background-color: rgb(10, 155, 148);
+    height: 180px;
+}
+.cards{
+    margin: 10px;
+    display: flex;
+    height: 150px;
+    gap: 20px;
+} 
+.card1{
+    padding: 20px;
+    background-color: rgb(213, 185, 60);
+    text-align: center;
+    flex: 1;
+
+}
+.card2{
+    padding: 20px;
+    background-color: rgb(213, 147, 60);
+    text-align: center;
+    flex: 1;
+}
+.card3{
+    padding: 20px;
+    background-color: rgb(213, 147, 60);
+    text-align: center;
+    flex: 1;
+}
+.container{
+    margin: 10px;
+    display: flex;
+    gap: 20px 20px;
+}
+.con1{
+    background-color: rgb(43, 201, 96);
+    height: 350px;
+    flex: 1;
+}
+.con2{
+    display: flex;
+    height: 350px;
+    flex: 2;
+    flex-direction: column;
+}
+.tar1{
+    display: flex;
+    height: 175px;
+    background-color: rgb(128, 151, 63);
+    gap: 20px;
+}
+.tar2{
+    margin-top: 10px;
+    display: flex;
+    height: 175px;
+    background-color: rgb(45, 78, 78);
+    gap: 20px;
+}
+.footer{
+    margin: 10px;
+    display: flex;
+    height: 70px;
+    background-color: yellowgreen;
+}
